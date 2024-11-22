@@ -1,0 +1,8 @@
+.root{
+    -fx-background-image: url("WELCOME.jpg");
+    /* -fx-font-size: 250%; */
+    -fx-background-size: 100% 100%;   
+}
+.button:hover{
+    -fx-text-fill: rgb(68, 245, 245);
+}

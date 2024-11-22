@@ -1,0 +1,41 @@
+.root{
+    -fx-background-image: url("LOGIN.jpg");
+    /* -fx-font-size: 10pt; */
+    -fx-background-size: cover;
+}
+.label{
+    -fx-text-fill: rgb(253, 253, 253);
+    /* -fx-font-size: 15px; */
+    -fx-font-weight: bold;
+}
+.button{
+    -fx-background-color: rgb(6, 1, 43);
+    /* -fx-font-size: 15px; */
+    -fx-font-weight: bold;
+    -fx-text-fill: silver;
+    -fx-border-color: silver;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px; 
+    -fx-background-radius: 17px; 
+}
+.button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    /* -fx-background-radius: 3px, 3px, 2px, 1px; */
+    -fx-background-radius: 17px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+.text-field {
+    -fx-background-color: rgba(92, 5, 103, 0.4); /* Background color */
+    -fx-border-color: #ccc; /* Border color */
+    -fx-border-width: 4px; /* Border width */
+    -fx-font-weight: bold;
+    -fx-border-radius: 8px; /* Border radius */
+    -fx-padding: 5px; /* Padding inside the text field */
+    /* -fx-font-size: 14px; Font size */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-text-fill: aqua; /* Text color */
+}

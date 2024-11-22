@@ -1,0 +1,88 @@
+.root{
+    -fx-background-image: url("customerBG.jpg");
+    /* -fx-background-size: 100% auto cover;
+    -fx-background-repeat: no-repeat; */
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bolder;
+    -fx-font-family: "Roboto";
+}
+.label{
+    -fx-text-fill: white;
+}
+.text-field{
+    -fx-background-color: rgba(252, 189, 71, 0.527);
+    -fx-border-color: rgb(107, 70, 1);
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;   
+    -fx-background-radius: 17px;
+}
+.list-view{
+    -fx-background-color: rgba(252, 189, 71, 0.527);
+    -fx-border-color: rgb(107, 70, 1);
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;   
+    -fx-background-radius: 17px;
+}
+.list-cell:hover {
+    -fx-background-color: lightblue; 
+    -fx-text-fill: white; 
+    -fx-border-radius: 15px;
+    -fx-background-radius: 17px;
+}
+.list-cell:selected {
+    -fx-background-color: rgb(252, 86, 86); 
+    -fx-text-fill: white; 
+    -fx-border-radius: 15px;  
+    -fx-background-radius: 17px;
+}
+.list-cell {
+    -fx-background-color: transparent; /* Cell background color */
+    -fx-text-fill: black; /* Cell text color */
+}
+.date-picker{
+    -fx-background-color: rgba(252, 189, 71, 0.527);
+    -fx-border-color: rgb(107, 70, 1);
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;   
+    -fx-background-radius: 17px;
+}
+
+.date-picker-popup {
+    -fx-text-fill: white;
+    -fx-background-color:
+        linear-gradient(to bottom,
+        derive(-fx-color,-17%),
+        derive(-fx-color,-30%)
+        ),
+        -fx-control-inner-background;
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 0;
+    -fx-alignment: CENTER; /* VBox */
+    -fx-spacing: 0; /* VBox */
+    -fx-padding: 0.083333em; /* 1 1 1 1 */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 12, 0.0 , 0 , 8 );
+}
+.button{
+    -fx-background-color: rgb(6, 1, 43);
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: silver;
+    -fx-border-color: silver;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;   
+    -fx-background-radius: 17px;
+}
+.button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    /* -fx-background-radius: 3px, 3px, 2px, 1px; */
+    -fx-background-radius: 17px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}

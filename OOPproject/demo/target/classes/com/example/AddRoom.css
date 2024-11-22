@@ -1,0 +1,40 @@
+.root{
+    -fx-background-image: url("ROOM.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bolder;
+    -fx-font-family: "Roboto";
+}
+.label{
+    -fx-text-fill: white;
+}
+.text-field{
+    -fx-background-color: rgba(252, 189, 71, 0.527);
+    -fx-border-color: rgb(107, 70, 1);
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;   
+    -fx-background-radius: 17px;
+}
+.button{
+    -fx-background-color: rgb(6, 1, 43);
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: silver;
+    -fx-border-color: silver;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 17px;   
+}
+.button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    /* -fx-background-radius: 3px, 3px, 2px, 1px; */
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+    -fx-background-radius: 17px;
+}
